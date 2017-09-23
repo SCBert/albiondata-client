@@ -8,8 +8,8 @@ import (
 )
 
 type Page struct {
-	ID    int    `json:"id"`
-	Title string `json:"name"`
+	ID   int    `json:"id"`
+	name string `json:"name"`
 }
 
 func (p Page) toString() string {
@@ -37,9 +37,9 @@ func loadItems(idx int) {
 			fmt.Println(p.toString())
 		}
 	}*/
-    //for i := range pages {
-        fmt.Println(p[idx][1].toString) 
-    //}
+	//for i := range pages {
+	fmt.Println(pages[idx].name)
+	//}
 }
 
 func getPages() []Page {
