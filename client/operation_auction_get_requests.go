@@ -3,9 +3,9 @@ package client
 import (
 	"encoding/json"
 
-	"github.com/regner/albiondata-client/lib"
-	"github.com/regner/albiondata-client/log"
-	"github.com/regner/albiondata-client/notification"
+	"github.com/SCBert/albiondata-client/lib"
+	"github.com/SCBert/albiondata-client/log"
+	"github.com/SCBert/albiondata-client/notification"
 )
 
 type operationAuctionGetRequestsResponse struct {

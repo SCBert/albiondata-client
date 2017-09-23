@@ -3,8 +3,8 @@ package client
 import (
 	"strconv"
 
-	"github.com/regner/albiondata-client/lib"
-	"github.com/regner/albiondata-client/log"
+	"github.com/SCBert/albiondata-client/lib"
+	"github.com/SCBert/albiondata-client/log"
 )
 
 type operationGetClusterMapInfo struct {

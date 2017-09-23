@@ -3,7 +3,7 @@ package client
 import (
 	"os"
 
-	"github.com/regner/albiondata-client/log"
+	"github.com/SCBert/albiondata-client/log"
 )
 
 func processOfflinePcap(path string) {
