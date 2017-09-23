@@ -8,8 +8,8 @@ import (
 
 	//"github.com/jmoiron/jsonq"
 
-	"github.com/samuelaustin/albiondata-client/lib"
-	"github.com/samuelaustin/albiondata-client/log"
+	"github.com/SCBert/albiondata-client/lib"
+	"github.com/SCBert/albiondata-client/log"
 )
 
 type eventGenericContainerContents struct {
@@ -55,7 +55,7 @@ func (event eventGenericContainerContents) Process(state *albionState) {
 
 	//log.Infof("Sending Generic container with %d items of %v to ingest", len(items), state.CharacterName)
 
-	//log.Infof("Sending contents of chest to json file...")
+	log.Infof("Sending contents of chest to json file...")
 
 	itemsJSON, _ := json.Marshal(items)
 	date := time.Now().Local().Format("2006-01-02T15-04-05")

@@ -30,14 +30,16 @@ func loadItems(idx int) {
 	//itemList := make(map[int]string)
 	//x int
 	pages := getPages()
-	fmt.Println(pages.ID)
+	//fmt.Println(pages.ID)
 	/*for x, y := range pages {
 		//itemList
 		if id = p. {
 			fmt.Println(p.toString())
 		}
 	}*/
-
+    //for i := range pages {
+        fmt.Println(p[idx][1].toString) 
+    //}
 }
 
 func getPages() []Page {
